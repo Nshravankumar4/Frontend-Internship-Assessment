@@ -17,19 +17,19 @@ TailwindCSS
 Installation
 Clone the repository:
 
-Copy code
-git clone https://github.com/your-username/dashboard-app.git
+
+[git clone https://github.com/your-username/dashboard-app.git](https://github.com/Nshravankumar4/Frontend-Internship-Assessment.git)
 Navigate to the project directory:
 
-Copy code
+
 cd dashboard-app
 Install dependencies:
 
-Copy code
+
 npm install
 Start the development server:
 
-Copy code
+
 npm run dev
 The application should now be running at http://localhost:3000.
 
@@ -42,11 +42,11 @@ The application can be containerized using Docker. Follow these steps:
 Install Docker on your machine.
 Build the Docker image:
 
-Copy code
+
 docker build -t dashboard-app .
 Run the Docker container:
 
-Copy code
+
 docker run -p 3000:3000 dashboard-app
 The application should now be running at http://localhost:3000.
 
